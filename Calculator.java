@@ -1,5 +1,9 @@
-# Calculator
+package CmdCalculator;
+
 import java.util.Scanner;
+/**
+ * Created by Anfisa on 23.06.2017.
+ */
 public class Calculator {
     public static void main (String [] args){
         System.out.print("Введите, пожалуйста, выражение:");
