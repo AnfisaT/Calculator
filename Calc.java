@@ -12,22 +12,10 @@ public class Calc {
         if(K.stringtest(s)){
            StringSplit L = new StringSplit();
            String [] ElStart = L.stringsplit(s);
-           for (int i = 0; i < ElStart.length; i++){
-               System.out.print(ElStart[i]);
-           }
-           System.out.println("");
            StringMD O = new StringMD();
            String [] ElProc = O.MD (ElStart);
-           for (int i = 0; i < ElProc.length; i++){
-                System.out.print(ElProc[i]);
-           }
-           System.out.println("");
            StringID P = new StringID();
            ElProc = P.ID(ElProc);
-           for (int i = 0; i < ElProc.length; i++){
-               System.out.print(ElProc[i]);
-           }
-           System.out.println("");
            try {
                Res = Double.valueOf(ElProc[0]);
            } catch (NumberFormatException i) {
