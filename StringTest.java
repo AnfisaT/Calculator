@@ -15,9 +15,7 @@ public class StringTest {
         Matcher mat2 = pat2.matcher(S);
         boolean stt;
         if (mat1.matches()) {
-            System.out.println("Строка начинается и заканчивается числом");
-            if (mat2.matches()) {
-                System.out.println("Строка соответсвует шаблону");
+           if (mat2.matches()) {
                 stt = true;
             }
             else{
